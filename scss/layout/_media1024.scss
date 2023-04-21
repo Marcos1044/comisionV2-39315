@@ -1,0 +1,146 @@
+@media (min-width: 1024px) {
+    header {
+        h1 {
+            font-size: 3rem;
+        }
+
+        .logos-header {
+            img {
+                height: 50px;
+                width: 50px;
+            }
+        }
+    }
+
+    .listado-navbar-header {
+        ul {
+            li {
+                font-size: 2rem;
+            }
+        }
+    }
+//*************************Mian-Index*************************//
+    main {
+        section {
+            .cards {
+                img {
+                    height: 20rem;
+                    width: 20rem;
+                }
+                p {
+                    font-size: 1.3rem;
+                }
+
+                button {
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .container-div-index {
+        justify-content: space-around;
+    }
+
+    .container-secundario {
+        h2 {
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 2rem;
+        }
+    }
+
+    .item1 {
+        order: 5;
+    }
+
+    .item2 {
+        order: 1;
+    }
+
+    .item3 {
+        order: 2;
+    }
+
+    .item4 {
+        order: 3;
+    }
+
+    .item5 {
+        order: 4;
+    }
+
+    .item4, .item5 {
+         margin: 0;
+    } 
+
+    //**************************Main-Contactanos********************//
+
+    .container-contacto-contactanos{
+        h3 {
+            font-size: 3rem;
+        }
+    }
+
+    .ul-container-contactanos {
+        li {
+            font-size: 1.5rem;
+        }
+    }
+
+    .formulario-principal-2 {
+        span {
+            font-size: 3rem;
+        }
+    }
+
+    //**************************Main-Galeria************************//
+
+    .imagenes-galeria {
+        img {
+            width: 30rem;
+            height: 30rem;
+        }
+    }
+
+    //****************************Main-Nosotros***********************//
+
+    .div-nosotros {
+        h2 {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 2rem;
+            margin: 10px;
+        }
+    }
+
+    //*****************************Main-Tienda************************//
+    .section-1 {
+        div {
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+    }
+
+    .section-1,.section-2, .section-3 {
+        h3 {
+            font-size: 3rem;
+        }
+        div {
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .imagenes-secundarios {
+        img {
+            width: 20rem;
+            height: 20rem;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.container-tienda {
+     background-color: $background-main;
+ }
+
+.section-1, .section-2, .section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    h3 {
+        font-size: 2rem;
+    }
+}
+
+.imagenes-secundarios {
+    img {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,20 @@
+header {
+    background-color: $background-principal;
+
+    h1 {
+        font-size: 2rem;
+        position: absolute;
+        padding-left: 7rem;
+        padding-top: 0px;
+        margin: 5px;
+        text-decoration: underline;
+    }
+
+    .logos-header {
+        img {
+            height: 35px;
+            width: 35px;
+        }
+    }
+}
+

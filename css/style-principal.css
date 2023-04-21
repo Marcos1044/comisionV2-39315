@@ -1,0 +1,727 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+/************Header ******************/
+
+.container-header {
+    background-color: rgba(128, 128, 128, 0.699);
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    width: 100%; /*
+    margin: 0 auto;
+    padding: 1rem; */
+}
+
+.titulo-principal {
+    font-size: 3rem;
+    padding-left: 2rem;
+    text-decoration: underline;
+}
+
+.nav-listado-principal {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 1rem 1.5rem;
+    border-radius: 0.4rem;
+}
+
+.listado-nav {
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    gap: 7rem;
+}
+
+.listado-nav li a {
+    color: black;
+} 
+
+.nav-listado-principal label img {
+    height: 24px;
+    width: 24px;
+}
+
+.nav-listado-principal #toggle, nav label {
+    display: none;
+}
+
+.logos-header {
+    padding-right: 2rem;
+}
+
+.logos-header img {
+    margin: 5px;
+}
+
+/************************* Main  ***************************/
+
+main {
+    background-color: rgba(128, 128, 128, 0.075);
+}
+
+
+/************************* Index  *************************/
+
+.imagen-principal {
+    width: 100%;
+}
+
+.container-div-index {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 10px 50px 10px;
+}
+
+.item1 {
+    order:  5;
+}
+
+.item2 {
+    order: 1;
+}
+
+.item3 {
+    order: 2;
+}
+
+.item4 {
+    order: 3;
+}
+.item5 {
+    order: 4;
+}
+
+.container-secundario {
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+}
+
+.titulo-secundario {
+    font-size: 4rem;
+}
+
+.container-secundario p {
+    font-size: 2rem;
+    padding: 2px    ;
+}
+
+.container-div-index .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.cards p {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.cards button {
+   border: none;
+}
+
+.cards button a {
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.cards img {
+    width: 35rem;
+    height: 35rem;
+}
+
+
+/**********************************************************/
+
+
+/***********************  Tienda   ************************/
+
+.container-tienda {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section-1, .section-2, .section-3 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.titulo-tienda {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 3rem;
+    margin: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.tienda-item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+
+.tienda-item2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+
+.tienda-item3 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+
+.tienda-item4 {
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+
+.imagenes-secundarios p{
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.imagenes-secundarios img {
+    width: 40rem;
+    height: 40rem;
+    margin: 20px;
+}
+
+
+
+
+
+
+/***********************  Gelaria   ************************/
+
+.section-galeria {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+.titulo-galeria {
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.imagenes-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3rem;
+}
+
+
+
+
+
+
+
+
+/*********************** Contactos ************************/
+
+.container-main-contacto {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.container-contacto-contactanos {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-contacto-contactanos h3 {
+    font-size: 3.5rem;
+    padding-left: 1rem;
+}
+
+/* .ul-container-contactanos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+} */
+.ul-container-contactanos li {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.ul-container-contactanos li img {
+    margin: 10px;
+}
+
+.formulario-principal {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+.formulario-principal-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border: none;
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario-principal-2 span {
+    font-size: 2.5rem;
+}
+
+.formulario-principal-2 input {
+    background-color: rgba(128, 128, 128, 0.699);
+    width: 90%;
+    height: 30px;
+}
+
+#asunto {
+    height: 90px;
+} 
+
+.formulario-principal-2 button {
+    width: 90%;
+}
+
+.formulario-principal-2 button a {
+    font-size: 2.5rem;
+}
+
+
+
+/********************** Nosotros *************************/
+
+.div-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.titulo-nosotros {
+    font-size: 4rem;
+    margin: 5px;
+}
+
+.div-nosotros p {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+
+/******************* Footer  *****************************/
+
+footer {
+    background-color:  rgba(128, 128, 128, 0.699);
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-terciario {
+    font-size: 2.5rem;
+    padding-left: 10px;
+}
+
+/******************* Categoria  *************************/
+
+.container-categoria {
+    padding-left: 20px;
+}
+
+.listado-nav-2 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.listado-nav-2 li a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+
+/******************* Contactos  ************************/
+
+.container-contactos {
+    padding-left: 20rem;
+}
+.listado-nav-3 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.listado-nav-3 li {
+    font-size: 1.8rem;
+    padding-right: 5rem;
+}
+
+.listado-nav-3 li a img {
+    width: 4rem;
+    height: 4rem;
+    padding: 10px 10px 0 0;
+}
+
+.logos-footer h3 {
+    padding-right: 10px;
+}
+
+.logos-footer div {
+    padding-left: 3rem;
+}
+
+.logos-footer a img{
+    padding: 5px 0 0 20px;
+}
+
+@media (max-width: 1024px) {
+
+
+    /**************** Header  *******************/
+
+    .titulo-principal {
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    }
+
+    .listado-nav {
+        font-size: 2rem;
+        gap: 5rem;
+    }
+
+    .logos-header {
+        display: flex;
+        flex-direction: row;
+        padding-right: 1.5rem;
+    }
+
+    .logos-header img {
+        width: 40px;
+        height: 40px;
+    }
+
+    /**************** Main ***********************/
+        .container-div-index {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .container-div-index .cards {
+            gap: 20px;
+        }
+
+        .item1 {
+            order:  1;
+            margin: 20px;
+        }
+        
+        .item2 {
+            order: 2;
+            margin: 40px;
+        }
+        
+        .item3 {
+            order: 3;
+            margin: 40px;
+        }
+        
+        .item4 {
+            order: 4;
+            margin: 40px;
+        }
+        .item5 {
+            order: 5;
+            margin: 40px;
+        }
+
+    /********************* Tienda  *******************/
+
+    .imagenes-secundarios img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .imagenes-secundarios p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+
+
+    /******************** Nosotros *******************/
+
+
+
+    /*************** Footer  ***********************/
+
+       .titulo-terciario-conectados {
+            text-align: center;
+            padding-left: 2.5rem;
+       }
+}
+
+
+@media (max-width:  768px) {
+
+
+    /******************* Header ********************/
+
+    .titulo-principal {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .listado-nav {
+        font-size: 1.5rem;
+        gap: 3rem;
+    }
+
+    /******************* Main  **********************/
+
+    .container-secundario p {
+        text-align: center;
+    }
+
+    .cards img {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .cards p {
+        text-align: center;
+        font-size: 12.5px;
+    }
+
+    /****************** Tienda ***********************/
+
+    .titulo-tienda {
+        margin: 10px;
+    }
+
+    .imagenes-secundarios img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .imagenes-secundarios p {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    /******************* Footer  ********************/
+
+    /********************Contactos  *****************/
+
+    .logos-footer div {
+        display: flex;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /******************* Header  ********************/
+
+    .titulo-principal {
+        order: 2;
+        font-size: 2rem;
+        padding: 0.4rem;
+    }
+
+    .listado-nav {
+        order: 1;
+        gap: 1rem;
+    }
+
+    .logos-header {
+        order: 3;
+        padding: 0.2rem 0.5rem 1rem 0.5rem;
+    }
+
+    .logos-header img {
+        width: 30px;
+        height: 30px;
+        margin: 0.5px;
+    }
+
+    .nav-listado-principal {
+        padding: 0.5rem 0.5rem 1rem 0.5rem;
+    }
+
+    .nav-listado-principal .menu {
+        /* width: 100%; */
+        height: 0;
+        overflow: hidden;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+
+    .nav-listado-principal label {
+        display: inline-flex;
+        color:  white;
+        cursor: pointer;
+    }
+
+    .nav-listado-principal #toggle:checked ~ .menu {
+        height: 25vh;
+    }
+
+    /******************* Main    ********************/
+
+    /******************* Galeria ********************/
+
+    .titulo-galeria {
+        text-align: center;
+    }
+
+    .imagenes-galeria img {
+        width: 100%;
+    }
+
+    /******************* Tienda  ********************/
+
+    .section-1,.section-2, .section-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .imagenes-secundarios img {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .imagenes-secundarios p {
+        font-size: 1.3rem;
+    }
+
+
+    /******************* Contacto *******************/
+
+    .container-main-contacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-contacto-contactanos {
+        margin: 3rem;
+    }
+
+    .container-contacto-contactanos h3 {
+        padding-left: 4.5rem;
+        font-size: 3rem;
+    }
+
+    .ul-container-contactanos li {
+        font-size: 2rem;
+    }
+
+    .ul-container-contactanos li a img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .formulario-principal {
+        margin: 3rem;
+    }
+
+
+    /******************* Nosotros *******************/
+
+
+    /******************* Footer *********************/
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-categoria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-terciario {
+        padding-right: 4rem;
+    }
+
+    .container-contactos {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-logos {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-listado-secundario {
+        padding-right: 1.5rem;
+    }
+
+    .listado-nav-3 li {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .listado-nav-3 li a img {
+        width: 3rem;
+        height: 3rem;
+    }   
+
+    .logos-footer div {
+        padding-left: 5rem;
+    }
+} 

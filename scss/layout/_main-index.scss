@@ -1,0 +1,48 @@
+main {
+    background-color: rgba(128, 128, 128, 0.075);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .imagen-principal {
+        width: 100%;
+    }
+}
+
+.container-div-index {
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            height: 25rem;
+            width: 25rem;
+        }
+    }
+}
+
+.container-secundario {
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}
+
+.cards {
+    p {
+        font-size: 1.2rem;
+        margin: 10px;
+    }          
+    
+    button {
+        margin: 10px;
+        a {
+            margin: 10px;
+            color: black;
+        }
+    }
+}

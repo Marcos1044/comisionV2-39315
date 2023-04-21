@@ -1,0 +1,67 @@
+footer {
+    background-color: $background-principal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    div {
+        h3 {
+            font-size: 2rem;
+        }
+
+        nav {
+            ul {
+                list-style: none;
+                li {
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-size: 15px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav-listado-secundario {
+    ul {
+        li {
+            margin: 10px;
+            padding-right: 0.8rem;
+        }
+    }
+}
+
+.titulo-terciario-categoria {
+    padding-left: 0.8rem;
+}
+
+.titulo-terciario-contactos {
+    padding-left: 11rem;
+}
+.listado-nav-3 {
+    li {
+        text-align: center;
+        a {
+            font-size: 20px;
+            img {
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
+}
+
+.logos-footer {
+    div {
+        padding-left: 6rem;
+        a {
+            img {
+                height: 35px;
+                width: 35px;
+            }
+        }
+    }
+}
